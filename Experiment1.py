@@ -3,7 +3,7 @@ Experiment 1: Apply 1D clustering to just the manders score feature
 '''
 
 import pandas as pd
-import utils.tools as tools
+import utls.tools as tools
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import numpy as np
@@ -50,3 +50,6 @@ sns.distplot(manders_data, hist=True, kde=True)
 plt.vlines(breaks,0, 4, colors='black')
 plt.show()
 
+
+# pd_data["Correlation_Manders_ER_otsu_V2R_otsu"].plot.density()
+# plt.show()
